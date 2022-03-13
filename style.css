@@ -1,0 +1,118 @@
+* {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: #FFF;
+}
+
+.bg-secondary-color {
+    background-color: #ece8ea;
+}
+
+.bg-dark-color {
+    background-color: #050505;
+}
+
+.primary-color {
+    color: #050505;
+}
+
+.secondary-color {
+    color: #7a7a7a;
+}
+
+/*MENU*/
+#navbar {
+    border-bottom: 1px solid #7a7a7a;
+    padding: 1px;
+}
+
+#navbar a:hover {
+    color:#7a7a7a;
+}
+
+#navbar a.active {
+    border-bottom: 1px solid #050505;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin: 0 1em;
+    font-weight: 300;
+}
+
+/* APRESENTAÇÃO */
+#home{
+    padding-top: 200px;
+    font-weight: 700;
+}
+
+#container-apresentacao {
+  padding-top: 10px;
+}
+
+/* SEPARADORES */
+#border {
+   display: flex;
+   padding-top: 50px;
+   padding-bottom: 150px;
+   justify-content: center;
+}
+
+#border1 {
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    justify-content: center;
+ }
+
+ /* BOTÃO NOTICIAS */
+ #botaont {
+     width: 250px;
+     box-shadow: 1px 3px 5px;
+ }
+
+/*  INSCREVA-SE */
+#background-ins {
+    background-color: #7a7a7a57;
+    padding: 2em 5em;
+}
+
+.botaoinsc {
+    padding: 0.5em;
+    box-shadow: 0px 1px 4px;
+    
+}
+
+/* CONTATOS */
+ #background-ctt {
+     background-color: #050505;
+     padding: 5em 5em;
+ }
+
+ #color-footer {
+     padding-top: 2.5em;
+ }
+
+
+
+
+
+
+
