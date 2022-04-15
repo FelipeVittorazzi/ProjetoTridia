@@ -59,10 +59,10 @@
             <div class="container" id="container-apresentacao">
                 <h1 class="text-center font-italic" id="home"><i>Sobre a Italia</i></h1>
                 <div class="row" id="border">
-                    <div class="col-lg">
+                    <div class="col-12 col-xxl-6 mb-4" id="tamanho-i">
                         <iframe class="embed-responsive-item" src="midia/italiav.mp4" width="100%" height="100%" preload="auto" autoplay="0" controls loop></iframe>
                     </div>
-                    <p class="col-sm fs-3 lh-sm">A Itália é uma das principais potências turísticas do mundo, tendo sido o quinto país mais visitado em 2018, de acordo com dados da Organização Mundial de Turismo da ONU.
+                    <p class="col-12 col-xxl-6 fs-3 lh-sm">A Itália é uma das principais potências turísticas do mundo, tendo sido o quinto país mais visitado em 2018, de acordo com dados da Organização Mundial de Turismo da ONU.
                     <br>
                     O último relatório da organização apontou que o território italiano foi visitado por mais de 62 milhões de turistas internacionais. 
                     <br>
@@ -79,7 +79,7 @@
             <div class="container overflow-hidden" id="fotos">
                 <h1 class="border-bottom">PONTOS TURÍSTICOS</h1>
                 <div class="row gx-5">
-                  <div class="col-lg">
+                  <div class="col-12 col-xxl-6 mb-4">
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -117,8 +117,8 @@
                         </button>
                     </div>
                   </div>
-                  <div class="col-lg ">
-                    <div class="container" id="texto-slider">
+                  <div class="col-12 col-xxl-6">
+                    <div id="texto-slider">
                         <p class="fs-3 lh-sm" id="textofotos">No centro de Roma, capital da Itália, o Coliseu (“Colosseo” em italiano) é parada obrigatória para todo turista que estiver em solo italiano.
                             <br>
                          A grandiosidade do local não é apenas visual. Ele é o maior anfiteatro já construído, é uma das sete maravilhas do mundo, é patrimônio da humanidade pela Unesco e, ainda, inspiração para as telas de cinema, como no filme Gladiador.
@@ -137,8 +137,8 @@
          <article>
             <div class="container">
                 <h1 class="border-bottom">NOTÍCIAS</h1>
-                <div class="row">
-                    <div class="col">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-lg-4 col-md-6 mb-3">
                         <div class="card-group">
                             <div class="card">
                                 <img src="noticias/noticia.jpg" class="card-img-top" alt="Noticia">
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-4 col-md-6 mb-3">
                         <div class="card">
                             <img src="noticias/noticia1.jpg" class="card-img-top" alt="Noticia">
                                 <div class="card-body">
@@ -160,7 +160,7 @@
                                  </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-4 col-md-6 mb-3">
                         <div class="card">
                             <img src="noticias/noticia2.jpg" class="card-img-top" alt="Noticia">
                                 <div class="card-body">
@@ -183,19 +183,19 @@
             <div class="container p-5" id="comidas-tipicas">
                 <h1 class="border-bottom">COMIDAS</h1>
                 <div class="row">
-                    <div class="col" id="card">
+                    <div class="col-lg-3 col-sm-6" id="card">
                         <div id="pizza" class="d-flex justify-content-center p-3"><img src="midia/pizza1.png" alt="Pizza"></div>
                             <p class="fs-5">A famosa (e deliciosa) pizza foi inventada no sul da Itália em 1889, tornando-se popular no resto do país no final do século XX. É uma das comidas típicas da Itália mais apreciadas no mundo, cada país tem a sua própria versão de pizza, com diferentes ingredientes.</p>
                     </div>
-                    <div class="col" id="card">
+                    <div class="col-lg-3 col-sm-6" id="card">
                         <div id="pizza" class="d-flex justify-content-center p-3"><img src="midia/espaguete.png" alt="Espaguete"></div>
                             <p class="fs-5">O Spaghetti (ou Macararrão Espaguete) é outro prato italiano amado pelos brasileiros. Ele pode ser servido com diversos molhos diferentes, mas o mais comum é Ragú (molho vermelho com carne moída).</p>
                     </div>
-                    <div class="col" id="card">
+                    <div class="col-lg-3 col-sm-6" id="card">
                         <div id="pizza" class="d-flex justify-content-center p-3"><img src="midia/ravioli.png" alt="Ravioli"></div>
                             <p class="fs-5">O Ravioli é uma das comidas típicas da Itália que temos o costume de comer no Brasil. São mini pastéis recheados com diversos ingredientes. São cozidos e a massa é feita de ovo e farinha de trigo.</p>
                     </div>
-                    <div class="col" id="card">
+                    <div class="col-lg-3 col-sm-6 id="card">
                         <div id="pizza" class="d-flex justify-content-center p-3"><img src="midia/lasanha.png" alt="Lasanha"></div>
                             <p class="fs-5">Mais um prato adorado pelos brasileiros. A Lasagna (ou Lasanha) é uma das comidas típicas da Itália mais antigas. Alguns livros dizem que a origem do prato pode ser grega ou inglesa, mas certamente foi a Itália que aprimorou a receita.</p>
                     </div>
@@ -207,33 +207,53 @@
     <footer>
                 <!-- INSCREVA-SE -->
         <article>
-            <div class="container-fluid" id="background-ins">
-                <div class="row justify-content-center">
-                    <div class="col-4">
+            <div class="container-news" id="background-ins">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-12 col-lg-4">
                         <h1>Assine para atualizações</h1><br><p class="fs-4">Ao fazer a incrição, você ira receber novas atualizações sempre em seu email. O que está esperando? Fique por dentro!!!</p>
-                    </div>               
-                    <div class="col-4">
-                        <input type="text" class="form-control mt-5" placeholder="NOME" aria-label="First name">
                     </div>
-                    <div class="col-4">
-                        <input type="text" class="form-control mt-5" placeholder="E-MAIL" aria-label="Last name">
-                        <div class="d-flex justify-content-end p-2">
+                    <div class="col-6 col-lg-4">
+                        <div id="inputin">
+                            <input type="text" class="form-control" placeholder="NOME" aria-label="First name" id="mt-text">
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <div id="inputin">
+                            <input type="text" class="form-control" placeholder="E-MAIL" aria-label="Last name">
+                        </div>
+                        <div class="d-flex justify-content-end mt-2">
                             <input class="botaoinsc" type="button" value="INSCREVA-SE">
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>        
         </article>
                 <!-- CONTATOS -->
         <article>
-            <div class="container-fluid" id="background-ctt"><a id="contatos"></a>
-                <div class="d-flex justify-content-around align-center gap-4" id="color-footer">
-                    <a href="#" class="navbar-brand link-light">
-                    <img src="midia/iconit.png" alt="Italia"><h1>Itália</h1>
-                    </a>
-                    <a href="#" class="link-light"><i class="bi bi-telephone-fill p-3"></i>+0039 06 4565524</a> 
-                    <a href="#" class="link-light"><i class="bi bi-envelope-fill p-3"></i>italia@roma.com</a> 
-                    <a href="#" class="link-light"><i class="bi bi-geo-alt-fill p-3"></i>Itália, Europa</a>
+            <div class="" id="background-ctt"><a id="contatos"></a>
+                <div class="row justify-content-center p-0 m-0" id="color-footer">
+                    <div class="col-md-3 col-sm-6 p-0 d-flex justify-content-center">
+                        <a href="#" class="navbar-brand link-light align-items-center">
+                            <img src="midia/iconit.png" alt="Italia">
+                            <h1 class="m-0">Itália</h1>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-0 d-flex justify-content-center" id="contatos-f">
+                        <a href="#" class="link-light d-flex gap-2">
+                            <i class="bi bi-telephone-fill p-3"></i>
+                            <p>+0039 06 4565524</p>
+                        </a>
+                     </div>
+                    <div class="col-md-3 col-sm-6 p-0 d-flex justify-content-center" id="contatos-f">
+                        <a href="#" class="link-light d-flex gap-2">
+                            <i class="bi bi-envelope-fill p-3"></i><p>italia@roma.com</p>
+                        </a>
+                    </div> 
+                    <div class="col-md-3 col-sm-6 p-0 d-flex justify-content-center" id="contatos-f">
+                        <a href="#" class="link-light d-flex gap-2">
+                            <i class="bi bi-geo-alt-fill p-3"></i><p>Itália, Europa</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </article>
